@@ -17,7 +17,7 @@ If you want to run this on your computer without having to set up Apache / PHP e
 
 Once installed in the terminal navigate to this folder (eg `cd ~/Projects/LiveWires/`) and enter `vagrant up`.
 
-In your browser navigate to [http://127.0.0.1:8080].
+In your browser navigate to (http://127.0.0.1:8080).
 
 ## Long term plan...
 
