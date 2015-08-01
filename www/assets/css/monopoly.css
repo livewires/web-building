@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'kabelbook';
+    src: url('../fonts/kabel-webfont.eot');
+    src: url('../fonts/kabel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kabel-webfont.woff2') format('woff2'),
+         url('../fonts/kabel-webfont.woff') format('woff'),
+         url('../fonts/kabel-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html, h1, h2, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: #000;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-family: 'kabelbook', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+a {
+    color: rgb(238, 28, 37);
+}
+
+    a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+img { width: 100%; }
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    color: #fff;
+}
+
+    header hgroup{
+        position: absolute;
+        bottom: 0;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(238, 28, 37, 0.7);
+        box-sizing: border-box;
+    }
+
+        header h1, header h2 {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid rgb(238, 28, 37);
+    padding: 10px;
+}
+
+    nav li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+        nav li:first-child{
+            padding-left: 0;
+        }
+
+section {
+    padding: 10px;
+}
+
+    section h2 {
+        margin-bottom: 10px;
+    }
+
+    section p {
+        margin: 20px 0;
+    }
+
+        section p:last-child{
+            margin: 20px 0 0;
+        }
+
+
+    section .img {
+        width: 33%;
+    }
+
+
+    .img--left {
+        float: left;
+        margin-right: 10px;
+    }
+
+footer {
+    clear: both;
+    padding: 10px;
+}
+
+    footer p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+
+.property {
+    width: 46%;
+    height: 0;
+    padding-bottom: 46%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    margin: 10px 1%;
+}
+
+    .property__info {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .property__cost{
+        display: none;
+        margin-bottom: 10px !important;
+    }
+
+    .property:hover .property__cost{
+        display: block;
+    }
+
+
+.property--brown {
+    border: 1px solid #552f25;
+}
+    .property--brown .property__info {
+        background-color: #552f25;
+        color: white;
+    }
+
+.property--lightblue {
+    border: 1px solid #81a1ab;
+}
+    .property--lightblue .property__info {
+        background-color: #81a1ab;
+        color: white;
+    }
+
+
+.kingscross header{
+    background-image: url('../img/kingscross.jpg')
+}
+
+
+
+.colourpage img {
+    float: left;
+    margin-right: 10px;
+    width: 33%;
+}
+
+.colourpage div {
+    margin: 20px 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+    .colourpage div p {
+        margin-left: 35%;
+    }
+
+
+.colourpage--brown div {
+    border: 1px solid #552f25;
+}
+
+
+.colourpage--lightblue div {
+    border: 1px solid #81a1ab;
+}
