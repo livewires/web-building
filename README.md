@@ -2,13 +2,14 @@
 
 HTML & CSS overview for LiveWires
 
-## Worsheets
+## Worksheets
+
+Found in [sessions](sessions/).
 
 1. Set up a basic HTML template
 2. CSS to make the HTML look pretty
 3. Make more pages
 4. Optimise out CSS into other files
-
 
 ## Long term plan...
 
