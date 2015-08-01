@@ -11,6 +11,14 @@ Found in [sessions](sessions/).
 3. Make more pages
 4. Optimise out CSS into other files
 
+## Vagrant?
+
+If you want to run this on your computer without having to set up Apache / PHP etc locally you can install [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/wiki/Downloads).
+
+Once installed in the terminal navigate to this folder (eg `cd ~/Projects/LiveWires/`) and enter `vagrant up`.
+
+In your browser navigate to [http://127.0.0.1:8080].
+
 ## Long term plan...
 
 The rough plan is to throw in [Twig](http://twig.sensiolabs.org/) for templating.
