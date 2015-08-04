@@ -18,13 +18,13 @@ body {
 
 This sets the background colour to be a (slightly boring) grey, the text colour to black and picks a simple font for the text. Save the file and press refresh in your browser. See the changes?
 
-However you might want to pick some more interesting colours and more excting fonts... Have a look at CSSFontStack.com for some fonts and color.adobe.com for colours that you can copy and paste into the `body { ... }`
+However you might want to pick some more interesting colours and more exciting fonts... Have a look at [CSSFontStack.com](http://cssfontstack.com) for some fonts and [color.adobe.com](http://color.adobe.com) for colours that you can copy and paste into the `body { ... }`
 
-## Working on the `header`
+## Working on the header
 
 I want to have a large image in the top of my site. So first I need to find an image! If you have taken one you can use it straight away, however most of the time you will need to find an image online. Google provides a easy method of finding images that we are allowed to use on our site; go to `http://j.mp/livewires-imagesearch`. Under the search box you can see that the search settings are showing images that are 'labeled for noncommercial reuse'. This means we can use them free of charge. Go ahead a search for an image that you want to use and save it to the computer.
 
-Now that we have an image, we need to cut it down to fit the size that we want our header to be. My header is going to be 400 pixels (or `px`) high, and as wide as the screen. There are many different tools to crop images, have a look at pixlr.com/editor/. Open your image, and then in `image/image size` set the height of your image. Using the crop tool `image/crop` you can cut your image down to the right size. Finally save you image `File/save` back to your folder as `banner.jpg`.
+Now that we have an image, we need to cut it down to fit the size that we want our header to be. My header is going to be 400 pixels (or `px`) high, and as wide as the screen. There are many different tools to crop images, if you have GIMP installed use that or have a look at [pixlr.com/editor/](http://pixlr.com/editor/). Open your image, and then in `image/image size` set the height of your image. Using the crop tool `image/crop` you can cut your image down to the right size. Finally save you image `File/save` back to your folder as `banner.jpg`.
 
 Back in the `CSS` we're going to add some new styles:
 
@@ -62,7 +62,7 @@ header hgroup{
     }
 ```
 
-The first block of code sets the position of the `hgroup` tag to be at the `absolute bottom` of it's parent element (the `header`), and seets it's background to be black. While the second block targets the `h1` and `h2` tags in the `header`, making sure that they have a width and they stay in the centre of the page.
+The first block of code sets the position of the `hgroup` tag to be at the `absolute bottom` of it's parent element (the `header`), and set it's background to be black. While the second block targets the `h1` and `h2` tags in the `header`, making sure that they have a width and they stay in the centre of the page.
 
 ## Tweaking the rest of the page
 
