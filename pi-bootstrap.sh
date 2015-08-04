@@ -14,7 +14,8 @@ sudo apt-get -q -y install gedit chromium-browser ttf-mscorefonts-installer
 
 
 # Mod permissions
-
+sudo useradd -G www-data pi
+sudo chown pi /var/www/
 
 # Got everything? REBOOT!
 sudo reboot
