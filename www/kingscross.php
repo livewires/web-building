@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+<?php
 
-        <title>Monopoly</title>
+  $content = array(
+    'title' => 'Monopoly',
+    'heading' => array(
+      'main' => 'Monopoly',
+      'sub' => 'Everything you may need to know about the properties'
+    )
+  );
 
-        <link rel="stylesheet" type="text/css" href="assets/css/monopoly.css" />
-
-    </head>
-
-    <body class="kingscross">
-
-        <header>
-            <hgroup>
-                <h1>Monopoly</h1>
-                <h2>Everything you need to know about the properties</h2>
-            </hgroup>
-        </header>
-
-        <nav>
-            <div class="container">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="kingscross.html">Kings Cross</a></li>
-                    <li>Marylebone</li>
-                    <li>Fenchurch Street</li>
-                    <li>Liverpool Street</li>
-                </ul>
-            </div>
-        </nav>
+  include_once('includes/html_header.php');
+  include_once('includes/body_header.php');
+  include_once('includes/navigation.php');
+?>
 
         <section>
 
@@ -38,7 +20,7 @@
 
                 <p>The Kings Cross side of the board is the first side a player will go along. It's properties are brown and light blue.</p>
 
-                <a href="brown.html#oldkentroad">
+                <a href="brown.php#oldkentroad">
                     <div class="property property--brown">
                         <img src="assets/img/oldkentroad.jpg" />
                         <div class="property__info">
@@ -48,7 +30,7 @@
                     </div>
                 </a>
 
-                <a href="brown.html#whitechapel">
+                <a href="brown.php#whitechapel">
                     <div class="property property--brown">
                         <img src="assets/img/whitechapel.jpg" />
                         <div class="property__info">
@@ -58,7 +40,7 @@
                     </div>
                 </a>
 
-                <a href="lightblue.html#theangel">
+                <a href="lightblue.php#theangel">
                 <div class="property property--lightblue">
                     <img src="assets/img/angel.jpg" />
                     <div class="property__info">
@@ -68,7 +50,7 @@
                 </div>
                 </a>
 
-                <a href="lightblue.html#eustonroad">
+                <a href="lightblue.php#eustonroad">
                     <div class="property property--lightblue">
                         <img src="assets/img/eustonroad.jpg" />
                         <div class="property__info">
@@ -78,7 +60,7 @@
                     </div>
                 </a>
 
-                <a href="lightblue.html#pentonvilleroad">
+                <a href="lightblue.php#pentonvilleroad">
                     <div class="property property--lightblue">
                         <img src="assets/img/pentonville-road.jpg" />
                         <div class="property__info">
@@ -92,12 +74,7 @@
             </div>
         </section>
 
-        <footer>
-            <div class="container">
-                <p>This site was made by <a href="http://jamesdoc.com">James Doc</a> for <a href="http://livewires.org.uk/">Live Wires 2015</a>.</p>
-                <p>The majority of the content is taken from Wikipedia or monopoly.wikia.com under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike 3.0</a> license.
-            </div>
-        </footer>
-    </body>
 
-</html>
+<?php
+  include_once('includes/html_footer.php');
+?>
