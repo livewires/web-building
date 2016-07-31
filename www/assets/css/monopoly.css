@@ -45,9 +45,16 @@ img { width: 100%; }
 header {
     background: url(../img/banner.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 400px;
+    min-height: 200px;
     position: relative;
     color: #fff;
+    transition: min-height 1s;
+}
+
+@media (min-width: 600px) {
+    header {
+        min-height: 400px;
+    }
 }
 
     header hgroup{
