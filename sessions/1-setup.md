@@ -38,7 +38,7 @@ Seeing as we have the top of the page we should add the bottom:
 </footer>
 ```
 
-Finally between the two we need to add the introduction text for your page:
+Finally between the `header` and the `footer` we need to add the introduction text for your page:
 
 ```
 <section>
