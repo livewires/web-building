@@ -17,7 +17,10 @@
       <div class="container">
         <h1><?php
           if ($_POST['txt_name']) {
-            echo "Hello " . $_POST['txt_name'];
+            $name = $_POST['txt_name'];
+            $characters = strlen($name);
+            echo "Hello " . $name . ".";
+            echo "Your name has " . $characters . " letters in it.";
           }
         ?></h1>
           <form method="post" action="form.php">

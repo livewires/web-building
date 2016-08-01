@@ -36,4 +36,39 @@ Above your `<form>` we're going to display the contents of the input box. Add th
 ?>
 ```
 
-Try filling in the form now... What happens?
+What this does is it asks the server a question- `if` there is a `post` variable called `txt_name`, then `echo` out the response. Try filling in the form now... What happens?
+
+That outputs just one input, what about asking for two things, like a first name and a surname? Update your form like this:
+
+```
+<form method="post" action="form.php">
+  <p>
+    <label for="txt_firstname">First Name:</label>
+    <input type="text" name="txt_firstname" />
+  </p>
+
+  <p>
+    <label for="txt_surname">Surname:</label>
+    <input type="text" name="txt_surname" />
+  </p>
+
+  <input type="submit" value="Submit" />
+</form>
+```
+
+How do you think you can get the page to output `Hello James Doc`?
+
+Of course, you can do more than just output what was input... You can start to play around the contents of a variable before displaying it... Have a look at this example:
+
+```
+<?php
+  if ($_POST['txt_name']) {
+    $name = $_POST['txt_name'];
+    $characters = strlen($name);
+    echo "Hello " . $name . ".";
+    echo "Your name has " . $characters . " letters in it.";
+  }
+?>
+```
+
+Here we work out the length of the name inputted, and then outputs it to the user. What else could we do with an input?
