@@ -51,4 +51,4 @@ When you refresh your page you now have some black text on a white background…
 
 ----
 
-Got stuck? Have a look at [livewires.jamesdoc.com/01/](livewires.jamesdoc.com/01/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.
+Got stuck? Have a look at [livewires.jamesdoc.com/01/](http://livewires.jamesdoc.com/01/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.
