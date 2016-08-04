@@ -4,7 +4,7 @@ We've built a template in `html` and we've added styles with `css`, but a websit
 
 In my example I'm building a site about the properties on the Monopoly board, so I'm going to need to create some new pages for each side of the board starting off with the Kings Cross side.
 
-Make a copy of the `index.html` page and give a name based on the title of the page. Mine is called `kingscross.html`. Now go back to your web browser and enter in http://livewires.dev/kingscross.html (obviously you should replace `kingcross.html` with whatever you have chosen…).
+Make a copy of the `index.html` page and give a name based on the title of the page. Mine is called `kingscross.html`. Now go back to your web browser and enter in `livewires.dev/kingscross.html` (obviously you should replace `kingcross.html` with whatever you have chosen…).
 
 Huzzah, you should have a new page, but it looks very similar to your home page. Open up your new file in a text editor and give it a new title, and you can start adding in new content.
 
