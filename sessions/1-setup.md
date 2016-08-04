@@ -28,7 +28,7 @@ Remove everything between the `<body>` … `</body>` tags and replace it with:
 </header>
 ```
 
-Now save your file and refresh the page in your browser (`Ctrl + R`). You should now have two large titles. You should obviously now go and replace `Site name` and `Page name` with your own site name and page title.
+Now save your file (`Ctrl + S`)and refresh the page in your browser (`Ctrl + R`). You should now have two large titles. You should obviously now go and replace `Site name` and `Page name` with your own site name and page title.
 
 Seeing as we have the top of the page we should add the bottom:
 
