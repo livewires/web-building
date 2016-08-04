@@ -1,4 +1,4 @@
-# Live Wires - Pages
+# LiveWires - Pages
 
 We've built a template in `html` and we've added styles with `css`, but a website, is more than just one page.
 

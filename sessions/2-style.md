@@ -1,4 +1,4 @@
-# Live Wires - Adding style
+# LiveWires - Adding style
 
 In the last sheet we wrote a lot of `HTML` and added it into the `<body>` tag, but we didn’t touch the `<head>`. The `head` section is for all the information that the browser needs to display the content. So we’re going to add our styles using a language called `CSS` in there…
 

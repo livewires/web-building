@@ -1,4 +1,4 @@
-# Live Wires - Web Development
+# LiveWires - Web Development
 ## Server Side Includes
 
 Great! We've now got several pages across the site all looking great. Well done! However, have you noticed that it is a bit of a pain if you want to add a new page? You have to go into each page that you've created an update the navigation in each file. It's a bit of a pain. It would be much easier if we could just edit one file and get the server to update everything else for us...
