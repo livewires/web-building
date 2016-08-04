@@ -1,4 +1,4 @@
-# Live Wires - Setup
+# LiveWires - Setup
 
 > These worksheets are assuming that you are running a web server locally, if you are setting this up on your home computer you will need to have Apache, MySQL and PHP installed. There are many ways to get this set up, if you haven’t done this look at installing [XAMPP](https://www.apachefriends.org/).  
 
@@ -34,7 +34,7 @@ Seeing as we have the top of the page we should add the bottom:
 
 ```
 <footer>
-    <p>Made by [your-name] at Live Wires</p>
+    <p>Made by [your-name] at LiveWires</p>
 </footer>
 ```
 

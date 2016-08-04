@@ -1,4 +1,4 @@
-# Live Wires - Web Development
+# LiveWires - Web Development
 ## Going mobile
 
 Our site is looking good on this screen... but what about on mobile phones? How will it work there? Try reducing the width of your browser? It probably works fine, but could look better.

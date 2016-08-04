@@ -1,4 +1,4 @@
-# Live Wires - Web Development
+# LiveWires - Web Development
 ## Working with forms
 
 We've got a site now, and the server is building the page from lots of different include files, this is great, but the server isn't doing much work yet... So lets the server handling user input with a form!
