@@ -14,7 +14,7 @@ We can create a new file specifically for `CSS` and then tell our `HTML` pages t
 
 The first thing we need to do is to create a new folder called `assets`. Then open up `index.html` copy all the `CSS` in between the `style` tags. Next create a new file and paste your `CSS` into it. Save this new file in the `assets` folder as `style.css`.
 
-Now that the `CSS` is in a separate file we can delete it from the `HTML` pages and replace it with one link of code that tells the page where to look for the styles:
+Now that the `CSS` is in a separate file we can delete it and the `<style>` tag from the `<head>` of every page and replace it with one link of code that tells the page where to look for the styles:
 
 ```
 <link rel=“stylesheet” href=“assets/style.css” />
