@@ -14,7 +14,7 @@ Images:
 `<img src=“image.jpg” alt=“Description of your image” />`
 
 Lists:
-```
+```html
 <ol>
 	<li>One</li>
 	<li>Two</li>
@@ -23,7 +23,7 @@ Lists:
 ```
 
 Bullet points:
-```
+```html
 <ul>
 	<li>Point</li>
 	<li>Another point</li>
@@ -39,7 +39,7 @@ We’re going to create a menu on our pages below the banner to allow visitors t
 
 Open up `index.html` again and scroll down to the end of the `header` and the beginning on the `section`:
 
-```
+```html
 …
         </header>
 
@@ -49,7 +49,7 @@ Open up `index.html` again and scroll down to the end of the `header` and the be
 
 Now in-between these two tags we’re going to create a new element called `nav` for navigation:
 
-```
+```html
 </header>
 
 <nav>
@@ -66,7 +66,7 @@ Now in-between these two tags we’re going to create a new element called `nav`
 
 Do you see that we added a list with a new tag in it? The `a` tag creates a link; the `href=“…”` tells the browser which file to link to, and then the text after what the visitor to your site sees:
 
-```
+```html
 <a href=“FILE-TO-LINK-TO.html”>Text that is displayed</a>
 ```
 
@@ -78,7 +78,7 @@ It’s functional, but does’t look very good. Lets write some `CSS` to fix tha
 
 In your `style` tag add this:
 
-```
+```css
 nav {
     background-color: white;
     border-bottom: 1px solid #ff0000;

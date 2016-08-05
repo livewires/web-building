@@ -8,7 +8,7 @@ Somewhere in between the `<head>` tags add in a new tag called `<style>` … `</
 
 We going to start by applying some styles to the whole page; in between your `style` tags add:
 
-```
+```css
 body {
     background-color: #ccc;
     color: #000;
@@ -28,7 +28,7 @@ Now that we have an image, we need to cut it down to fit the size that we want o
 
 Back in the `CSS` we're going to add some new styles:
 
-```
+```css
 header {
     background: url('banner.jpg') no-repeat center center;
     background-size: cover;
@@ -44,7 +44,7 @@ Save your file and refresh your page. Beginning to look good!
 
 Depending on the image that you have chosen and the text colour, it may be hard to read the title, so lets fix that. While we're at it we can make the text stick to the bottom of the header:
 
-```
+```css
 header hgroup{
     position: absolute;
     bottom: 0;
@@ -68,7 +68,7 @@ The first block of code sets the position of the `hgroup` tag to be at the `abso
 
 Add this into your `CSS`:
 
-```
+```css
 section {
     background-color: #ccc;
     padding: 10px;
@@ -101,7 +101,7 @@ This will adjust the space all the elements. However now when you refresh your p
 
 In the `CSS` add:
 
-```
+```css
 .container {
     margin: 0 auto;
     max-width: 800px;
@@ -110,8 +110,8 @@ In the `CSS` add:
 
 Now going back to the `HTML` below. In your `<section>` tag, but before your `<p>` tag add in `<div class="container">`, and then just before your closing `</section>` tag add in a closing `</div>` like this:
 
- ```
- <section>
+```html
+<section>
     <div class="container">
         <p>Welcome...</p>
     </div>

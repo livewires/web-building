@@ -7,7 +7,7 @@ Lets look at the header, it will probably take up over half the mobile screen, f
 
 `CSS` has a feature called `media queries`, they allow you to adjust the style sheet based on the width of the screen. At the moment your `CSS` applies to all of your design, but with media queries we can target specific screen sizes, or override existing styles. Have a look at this example
 
-```
+```css
 header {
     ...
     height: 200px;
