@@ -11,7 +11,28 @@ Before doing anything you need to know what your website is going to be about. H
 
 Copy `startingblock.html` into your folder and rename it to `index.html`. This is really important because `index` tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
 
-Now go to [http://livewires.dev/](http://livewires.dev) in your browser. You should have a page that says ‘starting block…’
+`startingblock.html` looks like this:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>LiveWires</title>
+    </head>
+
+    <body>
+
+        Starting block...
+
+    </body>
+
+</html>
+```
+
+Now go to <http://livewires.dev/> in your browser. You should have a page that says ‘starting block…’
 
 ## Building a template
 
@@ -19,7 +40,7 @@ Almost all websites have three things on them; a `header` and a `footer`. Lets a
 
 Remove everything between the `<body>` … `</body>` tags and replace it with:
 
-```
+```html
 <header>
 		<hgroup>
 				<h1>Site name</h1>
@@ -32,7 +53,7 @@ Now save your file (`Ctrl + S`)and refresh the page in your browser (`Ctrl + R`)
 
 Seeing as we have the top of the page we should add the bottom:
 
-```
+```html
 <footer>
     <p>Made by [your-name] at LiveWires</p>
 </footer>
@@ -40,7 +61,7 @@ Seeing as we have the top of the page we should add the bottom:
 
 Finally between the `header` and the `footer` we need to add the introduction text for your page:
 
-```
+```html
 <section>
    <p>Welcome to…</p>
 </section>

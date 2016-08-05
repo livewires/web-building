@@ -16,7 +16,7 @@ The first thing we need to do is to create a new folder called `assets`. Then op
 
 Now that the `CSS` is in a separate file we can delete it and the `<style>` tag from the `<head>` of every page and replace it with one link of code that tells the page where to look for the styles:
 
-```
+```html
 <link rel=“stylesheet” href=“assets/style.css” />
 ```
 
@@ -24,7 +24,7 @@ This looks a little bit like the `a` tag that we used to create links to differe
 
 Add this line to both your `index.html` and your second page. Save them both and visit the page in your browser. Hopefully nothing has changed, but now if you want to change a style you can just edit the one file. Go and try it; change the background colour of your body by adjusting:
 
-```
+```css
 body {
 	background-color: #00ff00;
 }
