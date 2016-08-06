@@ -5,7 +5,7 @@ We've got a site now, and the server is building the page from lots of different
 
 First off, create a new file called `form.php` and add in your header and footer, navigation, and anything else. Now inside a new `<section>` tag create a new form:
 
-```
+```html
 <form method="post" action="form.php">
     ...
 </form>
@@ -15,7 +15,7 @@ The `form` tag has a `method` and an `action`. We'll come back to the `method` l
 
 We've got a form, but if you go back and refresh the page you'll see that there is nothing there. We need to add inputs to the form. In between the `<form>...</form>` tags add this:
 
-```
+```html
 <input type="text" name="txt_name" />
 <input type="submit" value="Submit" />
 ```
@@ -28,7 +28,7 @@ You remember when we were writing the `form` tag it had a `method`? There are se
 
 Above your `<form>` we're going to display the contents of the input box. Add this:
 
-```
+```php
 <?php
   if ($_POST['txt_name']) {
     echo "Hello " . $_POST['txt_name'];
@@ -40,7 +40,7 @@ What this does is it asks the server a question- `if` there is a `post` variable
 
 That outputs just one input, what about asking for two things, like a first name and a surname? Update your form like this:
 
-```
+```html
 <form method="post" action="form.php">
   <p>
     <label for="txt_firstname">First Name:</label>
@@ -60,7 +60,7 @@ How do you think you can get the page to output `Hello James Doc`?
 
 Of course, you can do more than just output what was input... You can start to play around the contents of a variable before displaying it... Have a look at this example:
 
-```
+```php
 <?php
   if ($_POST['txt_name']) {
     $name = $_POST['txt_name'];

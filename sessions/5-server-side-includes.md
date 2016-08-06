@@ -17,7 +17,7 @@ With that done we can start telling each page to include the new `navigation.php
 
 In it's place include a new line:
 
-```
+```php
 <?php include_once('includes/navigation.php'); ?>
 ```
 
