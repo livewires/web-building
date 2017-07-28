@@ -9,13 +9,24 @@ To start off with we need to create a new folder called `includes` and inside it
 
 Now you have done that you can copy and paste the `<nav>...</nav>` tag and it's contents into your newly created `navigation.php` file. Save it!
 
+```html
+<nav>
+    <div class=“container”>
+        <ul>
+            <li><a href=“index.htm”>Home</a></li>
+            <li><a href=“characters.htm”>The Characters</a></li>
+        </ul>
+    </div>
+</nav>
+```
+
 Make sure all your files are closed within the text editor because we're going to start renaming things... Did you notice how we created the navigation file and gave it the extension `.php` rather than `.html`. That is because we need to tell the server that these files should be read as `PHP` rather than just `HTML`. We must update all the `.html` files and rename them as `.php`. For example `index.html` should become `index.php`.
 
 > You may get a warning about changing the file extension. Don't worry about that, just make sure you have changed it from `.html` to `.php` and haven't made any typos.
 
 With that done we can start telling each page to include the new `navigation.php` file. Start with `index.php` and delete everything in the `<nav>` tag, including the `<nav>` tag itself.
 
-In it's place include a new line:
+Where the `<nav>` tags were you can replace it with:
 
 ```php
 <?php include_once('includes/navigation.php'); ?>
@@ -30,3 +41,12 @@ But what's the problem? Have you tried clicking any of the links? They don't wor
 Have a look at `includes/navigation.php`... where are all the links pointing at? Currently they are pointing `.html` files, they should be pointing to the new `.php` files. Quickly update them in `navigation.php` and then refresh the page. The links should now be working, not just in your homepage, but everywhere. Try adding a new link to the navigation. Magic!
 
 Have a look through the rest of your `HTML`. Is there any other code that is repeated across every file? Could that be moved to an include file?
+
+---
+
+[Go to sheet six: Going mobile >](6-going-mobile.md)   
+[Back to sheet four: Improvements >](4-improvements.md)
+
+---
+
+Got stuck? Have a look in the [example](../example) folder which has all the files of the Monopoly site in it.

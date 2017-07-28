@@ -120,6 +120,11 @@ Now going back to the `HTML` below. In your `<section>` tag, but before your `<p
 
 Once you have done that, do the same in the footer and save and refresh the page.
 
+---
+
+[Go to sheet three: Pages >](3-pages.md)   
+[Back to sheet two: Setup >](1-setup.md)
+
 ----
 
-Got stuck? Have a look at livewires.jamesdoc.com/02/ for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.
+Got stuck? Have a look at [livewires.jamesdoc.com/02/](http://livewires.jamesdoc.com/02/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.

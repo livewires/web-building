@@ -26,3 +26,10 @@ This tells the `header` to start off at a height of 200px, but if the browser wi
 How could you try with other styles in the `CSS`?
 
 If you want to test your site in a phone have a look at this page: [Mobile tester](http://tester.jamesdoc.com/?url=http://livewires.dev)
+
+---
+
+[Go to sheet seven: Forms >](7-form-fields.md)   
+[Back to sheet five: Server side includes >](5-server-side-includes.md)
+
+---

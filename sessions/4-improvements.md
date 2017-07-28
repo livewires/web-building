@@ -22,7 +22,7 @@ Now that the `CSS` is in a separate file we can delete it and the `<style>` tag 
 
 This looks a little bit like the `a` tag that we used to create links to different pages. The `rel` bit tells the browser that it is getting a bit of `css` and the `href` tells the browser where the `css` is; in the `assets` folder find `style.css`.
 
-Add this line to both your `index.html` and your second page. Save them both and visit the page in your browser. Hopefully nothing has changed, but now if you want to change a style you can just edit the one file. Go and try it; change the background colour of your body by adjusting:
+Add this line to both your `index.htm` and your second page. Save them both and visit the page in your browser. Hopefully nothing has changed, but now if you want to change a style you can just edit the one file. Go and try it; change the background colour of your body by adjusting:
 
 ```css
 body {
@@ -31,3 +31,10 @@ body {
 ```
 
 Both pages should now be green!
+
+---
+
+[Go to sheet 5: Server side includes >](5-server-side-includes.md)   
+[Back to sheet three: Pages >](3-pages.md)
+
+---

@@ -9,9 +9,9 @@ Before doing anything you need to know what your website is going to be about. H
 - Minecraft
 - You favourite bands / TV show
 
-Copy `startingblock.html` into your folder and rename it to `index.html`. This is really important because `index` tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+Open up Sublime Text (or your preferred text editor) and then in the `www/` folder open the `index.htm` file. The `index.htm` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
 
-`startingblock.html` looks like this:
+`index.htm` looks like this:
 
 ```html
 <!DOCTYPE html>
@@ -32,11 +32,11 @@ Copy `startingblock.html` into your folder and rename it to `index.html`. This i
 </html>
 ```
 
-Now go to <http://livewires.dev/> in your browser. You should have a page that says ‘starting block…’
+Now go to <http://livewires.dev/> in your browser. You should have a page that says ‘Starting block…’
 
 ## Building a template
 
-Almost all websites have three things on them; a `header` and a `footer`. Lets add them in to our `index.html`. Open up the `index.html` file in a text editor like [GEdit](https://wiki.gnome.org/Apps/Gedit), [Sublime Text](http://www.sublimetext.com/) or [Notepad++](https://notepad-plus-plus.org/).
+Almost all websites have three things on them; a `header` and a `footer`. Lets add them in to our `index.html`.
 
 Remove everything between the `<body>` … `</body>` tags and replace it with:
 
@@ -49,7 +49,7 @@ Remove everything between the `<body>` … `</body>` tags and replace it with:
 </header>
 ```
 
-Now save your file (`Ctrl + S`)and refresh the page in your browser (`Ctrl + R`). You should now have two large titles. You should obviously now go and replace `Site name` and `Page name` with your own site name and page title.
+Now save your file (`Ctrl + S`) and refresh the page in your browser (`Ctrl + R`). You should now have two large titles. You should obviously now go and replace `Site name` and `Page name` with your own site name and page title.
 
 Seeing as we have the top of the page we should add the bottom:
 
@@ -67,8 +67,11 @@ Finally between the `header` and the `footer` we need to add the introduction te
 </section>
 ```
 
-When you refresh your page you now have some black text on a white background… Not very exciting. The next worksheet is about adding style.
+When you refresh your page you now have some black text on a white background… Not very exciting. The [next worksheet](2-style.md) is about adding style.
 
+---
+
+[Go to sheet two: Adding style >](2-style.md)
 
 ----
 
