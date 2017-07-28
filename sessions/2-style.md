@@ -123,7 +123,7 @@ Once you have done that, do the same in the footer and save and refresh the page
 ---
 
 [Go to sheet three: Pages >](3-pages.md)   
-[Back to sheet two: Setup >](1-setup.md)
+[Back to sheet one: Setup >](1-setup.md)
 
 ----
 

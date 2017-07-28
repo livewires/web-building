@@ -29,7 +29,9 @@ If you want to test your site in a phone have a look at this page: [Mobile teste
 
 ---
 
-[Go to sheet seven: Forms >](7-form-fields.md)   
-[Back to sheet five: Server side includes >](5-server-side-includes.md)
+[Go to sheet six: Static site generation](6-static-site-generator.md)   
+[Go to sheet six: Server side includes](6-server-side-includes.md)  
+or  
+[Back to sheet four: Improvements >](4-improvements.md)
 
 ---

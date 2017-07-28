@@ -75,6 +75,6 @@ Here we work out the length of the name inputted, and then outputs it to the use
 
 ---
 
-[Back to sheet six: Going mobile >](6-going-mobile.md)
+[Back to sheet 6: Server side includes >](6-server-side-includes.md)
 
 ---

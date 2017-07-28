@@ -44,8 +44,8 @@ Have a look through the rest of your `HTML`. Is there any other code that is rep
 
 ---
 
-[Go to sheet six: Going mobile >](6-going-mobile.md)   
-[Back to sheet four: Improvements >](4-improvements.md)
+[Go to sheet seven: Form fields >](7-form-fields.md)   
+[Back to sheet five: Going mobile >](5-going-mobile.md)
 
 ---
 
