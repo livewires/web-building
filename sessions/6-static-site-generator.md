@@ -14,7 +14,8 @@ Open a program called `Terminal`. It's a box to type instructions to the compute
 The first instruction we're going to give is to copy the files from [github.com/livewires/static-site-builder](https://github.com/livewires/static-site-builder). That command is:
 
 ```bash
-git clone git@github.com:livewires/static-site-builder.git ~/projects/static-site/
+cd ~/Projects
+git clone git@github.com:livewires/static-site-builder.git
 ```
 
 This command will create a new folder called `static-site`.
