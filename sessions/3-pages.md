@@ -92,19 +92,19 @@ It’s functional, but does’t look very good. Lets write some `CSS` to fix tha
 
 ```css
 nav {
-    background-color: white;
-    border-bottom: 1px solid #ff0000;
-    padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #ff0000;
+  padding: 10px;
 }
 
-    nav li {
-        display: inline-block;
-        padding: 10px;
-    }
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
 
-        nav li:first-child{
-            padding-left: 0;
-        }
+    nav li:first-child{
+      padding-left: 0;
+    }
 ```
 
 Can you work out what this does? It says that the `nav` should have a white background, a red border at the bottom with 10px of padding all the way around. Then the list tags should all be displayed in a line with another 10 pixels around each of them. However the first list item should have no padding on the left side, so it is right on the edge of the navigation.
