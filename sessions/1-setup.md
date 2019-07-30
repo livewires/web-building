@@ -9,9 +9,11 @@ Before doing anything you need to know what your website is going to be about. H
 - Minecraft
 - You favourite bands / TV show
 
-Open up Sublime Text (or your preferred text editor) and then in the `www/` folder open the `index.htm` file. The `index.htm` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+Open up Visual Studio Code or Sublime Text (or your preferred text editor) and  open or create a new file called `index.htm` file.
 
-`index.htm` looks like this:
+The `index.htm` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+
+`index.htm` should like this:
 
 ```html
 <!DOCTYPE html>
@@ -32,7 +34,7 @@ Open up Sublime Text (or your preferred text editor) and then in the `www/` fold
 </html>
 ```
 
-Now go to <http://livewires.dev/> in your browser. You should have a page that says ‘Starting block…’
+Now open a browser and open up the file in your browser. You should have a page that says ‘Starting block…’
 
 ## Building a template
 
@@ -42,10 +44,10 @@ Remove everything between the `<body>` … `</body>` tags and replace it with:
 
 ```html
 <header>
-		<hgroup>
-				<h1>Site name</h1>
-				<h2>Page name</h2>
-		</hgroup>
+  <hgroup>
+    <h1>Site name</h1>
+    <h2>Page name</h2>
+  </hgroup>
 </header>
 ```
 
@@ -72,7 +74,3 @@ When you refresh your page you now have some black text on a white background…
 ---
 
 [Go to sheet two: Adding style >](2-style.md)
-
-----
-
-Got stuck? Have a look at [livewires.jamesdoc.com/01/](http://livewires.jamesdoc.com/01/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.

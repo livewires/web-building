@@ -103,7 +103,3 @@ Make sure that this code is in both files.
 
 [Go to sheet four: Improvements >](4-improvements.md)    
 [Back to sheet two: Adding style >](2-style.md)
-
-----
-
-Got stuck? Have a look at [livewires.jamesdoc.com/03/](http://livewires.jamesdoc.com/03/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.

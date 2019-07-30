@@ -124,7 +124,3 @@ Once you have done that, do the same in the footer and save and refresh the page
 
 [Go to sheet three: Pages >](3-pages.md)   
 [Back to sheet one: Setup >](1-setup.md)
-
-----
-
-Got stuck? Have a look at [livewires.jamesdoc.com/02/](http://livewires.jamesdoc.com/02/) for an example of my Monopoly site. Right click in the browser and select `view source` to see the code.
