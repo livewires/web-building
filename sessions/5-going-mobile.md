@@ -28,10 +28,3 @@ How could you try with other styles in the `CSS`?
 If you want to test your site in a phone have a look at this page: [Mobile tester](http://tester.jamesdoc.com/?url=http://livewires.dev)
 
 ---
-
-[Go to sheet six: Static site generation](6-static-site-generator.md)   
-[Go to sheet six: Server side includes](6-server-side-includes.md)  
-or  
-[Back to sheet four: Improvements >](4-improvements.md)
-
----

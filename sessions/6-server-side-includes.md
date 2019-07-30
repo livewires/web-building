@@ -41,12 +41,3 @@ But what's the problem? Have you tried clicking any of the links? They don't wor
 Have a look at `includes/navigation.php`... where are all the links pointing at? Currently they are pointing `.html` files, they should be pointing to the new `.php` files. Quickly update them in `navigation.php` and then refresh the page. The links should now be working, not just in your homepage, but everywhere. Try adding a new link to the navigation. Magic!
 
 Have a look through the rest of your `HTML`. Is there any other code that is repeated across every file? Could that be moved to an include file?
-
----
-
-[Go to sheet seven: Form fields >](7-form-fields.md)   
-[Back to sheet five: Going mobile >](5-going-mobile.md)
-
----
-
-Got stuck? Have a look in the [example](../example) folder which has all the files of the Monopoly site in it.

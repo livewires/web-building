@@ -73,8 +73,3 @@ Of course, you can do more than just output what was input... You can start to p
 
 Here we work out the length of the name inputted, and then outputs it to the user. What else could we do with an input?
 
----
-
-[Back to sheet 6: Server side includes >](6-server-side-includes.md)
-
----
