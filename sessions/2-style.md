@@ -65,4 +65,6 @@ However you might want to pick some more interesting colours and more exciting f
 
 Try adjusting the color of the background and text in other `html` tags…
 
+---
+
 [Go to the next sheet; Page layout >](2.1-page-layout.md)   
