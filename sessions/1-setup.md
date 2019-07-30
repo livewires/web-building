@@ -18,23 +18,65 @@ The `index.htm` file is really important; it tells your computer that it is the 
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LiveWires</title>
+  </head>
 
-        <title>LiveWires</title>
-    </head>
-
-    <body>
-
-        Starting block...
-
-    </body>
+  <body>
+  </body>
 
 </html>
 ```
 
-Now open a browser and open up the file in your browser. You should have a page that says ‘Starting block…’
+Now open a browser and open up the file in your browser. You should have an empty page…
+
+## Tags
+
+`HTML` is a markup language. That is the `ML` stands for in `HTML`. It provides structure to content… if you look at this page some of the text are headings… other bits of the text are paragraphs. `HTML` allows us to create this structure on a page.
+
+A tag is made up of three parts:
+
+1. An opening tag
+2. The tag contents
+3. A closing tag
+
+Here is an example of a paragraph tag:
+
+```html
+<p>
+  This is a paragraph. Really!
+</p>
+```
+
+Can you see the three parts there? There is the opening tag: `<p>`, the closing tag: `</p>`, and the contents in the middle.
+
+Any text that you want to appear on your page needs to be added to your `HTML` as the contents of the `<body>` tag.
+
+Let's try adding a paragraph to our page now. Your `<body>` tag should now look like this:
+
+```html
+<body>
+  <p>
+    This is a paragraph. Really!
+  </p>
+</body>
+```
+
+Save your file, and go to your web browser, open your `index.htm` file. Refresh the web page and you should see the your text appear on screen.
+
+## A few more tags…
+
+There are a couple of other tags that you can use… try adding them to your `<body>` tag:
+
+1. `<h1>` is a big heading…
+2. `<h2>` is a smaller heading. You can go all the way down to `<h6>`
+3. `<hr />` is a self closing tag. It just creates a divider on your page.
+
+## Challenge
+
+For your first page write some text with headings (`<h1>`, `<h2>`, etc), paragraphs (`<p>`) and dividers (`<hr />`);
 
 ## Building a template
 
@@ -53,7 +95,7 @@ Remove everything between the `<body>` … `</body>` tags and replace it with:
 
 Now save your file (`Ctrl + S`) and refresh the page in your browser (`Ctrl + R`). You should now have two large titles. You should obviously now go and replace `Site name` and `Page name` with your own site name and page title.
 
-Seeing as we have the top of the page we should add the bottom:
+The `<header>…</header>` tags create a heading for your page… but now we need to create a footer for your page. Before the closing `</body>` tag add this:
 
 ```html
 <footer>
