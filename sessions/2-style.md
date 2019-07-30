@@ -1,4 +1,4 @@
-# LiveWires - Adding style
+# Adding style
 
 In the last sheet we wrote a lot of `HTML` tags and added them inside the `<body>` tag. Currently our page is looking very black and white.
 
@@ -16,10 +16,17 @@ body {
 }
 ```
 
-There are a couple of parts `CSS`.
+There are a couple of parts `CSS`:
 
-- First the `selector`. This tells the `CSS` which `HTML` tag to apply the design to. In this example the `selector` is the line `body {`. Here we are hooking onto the 
-- Secondly there are `properties` and `values`. In this example there is just one property and value: `background-color: red`.
+**`Selectors`**
+
+Selectors tells the `CSS` which `HTML` tag to apply the design to.
+
+In this example the selector is the line `body {`. This tells the `CSS` to hook onto the `<body>` tag in the HTML.
+
+**`Properties` and `Values`**
+
+In this example there is just one property and value: `background-color: red`, but a selector can have many…
 
 Hopefully it is clear what this does… these lines select the tag `body` and sets the `background-color` to be `red`.
 
