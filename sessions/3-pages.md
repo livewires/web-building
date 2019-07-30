@@ -1,19 +1,25 @@
-# LiveWires - Pages
+# Creating new pages
 
-We've built a template in `html` and we've added styles with `css`, but a website, is more than just one page.
+We've built a template in `html` and we've added styles with `css`, but a website is more than just one page.
 
-In my example I'm building a site about the properties on the Monopoly board, so I'm going to need to create some new pages for each side of the board starting off with the Kings Cross side.
+If you are writing a site about a book or a TV show, you might want a page about the characters… if you a writing about a sports team perhaps a page about the players… if a game perhaps a page about the storyline in it…
 
-Make a copy of the `index.htm` page and give a name based on the title of the page. If you are making a site about a tv show you might want a page about the characters, so you would call it `characters.htm`. Now go back to your web browser and enter in `livewires.dev/characters.htm` (obviously you should replace `characters.htm` with whatever you have chosen…).
+Make a copy of the `index.htm` page and give a name based on the title of the page. If you are making a site about a tv show you might want a page about the characters, so you would call it `characters.htm`.
+
+Change the page title in the `<header>`
+
+Go back to your web browser and navigate to your new file `localhost/characters.htm` (obviously you should replace `characters.htm` with the file name you have chosen…).
 
 Huzzah, you should have a new page, but it looks very similar to your home page. Open up your new file in a text editor and give it a new title, and you can start adding in new content.
 
-There are some really handy tags to add specific types of content. You have already used the `<h1>` - `<h6>` tags to create headings, and `<p>…</p>` for paragraphs. However there are lots more:
+As you add content to your page there other some other tags that might be helpful:
 
-Images:
-`<img src=“image.jpg” alt=“Description of your image” />`
+**Images:**
+```html
+<img src="image.jpg" alt="Description of your image" />
+```
 
-Lists:
+**Lists:**
 ```html
 <ol>
 	<li>One</li>
@@ -22,7 +28,7 @@ Lists:
 </ol>
 ```
 
-Bullet points:
+**Bullet points:**
 ```html
 <ul>
 	<li>Point</li>
@@ -33,7 +39,15 @@ Bullet points:
 
 ## Linking between pages
 
-Now we have two pages, with some great content, we need to give the visitors to your site a way of getting between the two pages. This is done with links.
+Now we have two pages, with some great content, we need make a way to get between the two pages. This is done with links.
+
+Links are `HTML` tags with attributes, they look like this:
+
+```html
+<a href="file-name.htm">
+  Text to display in the link
+</a>
+```
 
 We’re going to create a menu on our pages below the banner to allow visitors to navigate between the two pages.
 
@@ -41,9 +55,9 @@ Open up `index.htm` again and scroll down to the end of the `header` and the beg
 
 ```html
 …
-        </header>
+  </header>
 
-        <section>
+  <section>
 …
 ```
 
@@ -53,30 +67,28 @@ Now in-between these two tags we’re going to create a new element called `nav`
 </header>
 
 <nav>
-    <div class=“container”>
-        <ul>
-            <li><a href=“index.htm”>Home</a></li>
-            <li><a href=“characters.htm”>The Characters</a></li>
-        </ul>
-    </div>
+  <div class="container">
+    <ul>
+      <li><a href="index.htm">Home</a></li>
+      <li><a href="characters.htm">The Characters</a></li>
+    </ul>
+  </div>
 </nav>
 
 <section>
 ```
 
-Do you see that we added a list with a new tag in it? The `a` tag creates a link; the `href=“…”` tells the browser which file to link to, and then the text after what the visitor to your site sees:
+Do you see that we added a list with a new tag in it? The `a` tag creates a link; the `href="…"` tells the browser which file to link to, and then the text after what the visitor to your site sees:
 
 ```html
-<a href=“FILE-TO-LINK-TO.htm”>Text that is displayed</a>
+<a href="new-page.htm">Text that is displayed</a>
 ```
 
-Make sure that the second link points to your new page. Save the file, up http://livewires.dev/ and see what appears. Click through the new links… what happens? The second link will take you through to your second page, but because you don’t the code on the second page you can’t get back.
+Make sure that the second link points to your new page. Save the file, refresh the browser. Click through the new links… what happens? The second link will take you through to your second page, but because you don’t the code on the second page you can’t get back.
 
 Copy the `<nav>…</nav>` code and paste it in the same place in your second page. Save it, refresh the page and you have a list on both pages with your navigation.
 
 It’s functional, but does’t look very good. Lets write some `CSS` to fix that.
-
-In your `style` tag add this:
 
 ```css
 nav {
