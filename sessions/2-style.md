@@ -56,7 +56,7 @@ There are a couple of other properties and values that you can start playing wit
 ```CSS
 body {
   background-color: red;
-  text: white;
+  color: white;
   font-family: sans-serif;
 }
 ```
