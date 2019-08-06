@@ -1,17 +1,21 @@
-# Getting going: A basic page with tags…
+# Building your first page...
 
-Before doing anything you need to know what your website is going to be about. Have a think… you could pick anything you want. Here are a couple of ideas:
+Before writing any code you need to know what your website will be about. Have a think… you could pick anything you want!  Here are a couple of ideas:
 
-- A game you're playing?
-- A TV show or film?
-- A sports team?
-- A band?
+- A hobby that you enjoy
+- A game you're playing
+- A TV show or film
+- A sports team
+- A band
 
-Open up Visual Studio Code or Sublime Text (or your preferred text editor) and  create a new file called `index.html` file.
+## Getting going: A basic page with tags…
 
-The `index.html` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+In these worksheets we're going to be teaching you how to _write_ websites, not using a drag and drop site creator or anything like that, instead you'll be writing the code from scratch.
 
-`index.html` should like this:
+
+Open up [Visual Studio Code](https://code.visualstudio.com) (if you're using a LiveWires computer this will be installed already) or [Sublime Text](https://www.sublimetext.com). Other editors are avalible... we just like these two!
+
+Now in a new file create a file with this in it:
 
 ```html
 <!DOCTYPE html>
@@ -19,7 +23,6 @@ The `index.html` file is really important; it tells your computer that it is the
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Page title</title>
   </head>
 
   <body>
@@ -29,7 +32,9 @@ The `index.html` file is really important; it tells your computer that it is the
 </html>
 ```
 
-Now open a browser and open up the file in your browser. You should have an empty page…
+Save this file as `index.html`. The `index.html` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+
+Now open a web browser and open up your `index.html` file. You should have an empty page…
 
 ## Tags
 
@@ -79,7 +84,14 @@ There are a couple of other tags that you can use… try adding them to your `<b
 
 ## Challenge
 
-For your first page write some text with headings (`<h1>`, `<h2>`, etc), paragraphs (`<p>`) and dividers (`<hr />`);
+For your first page write some text with headings (`<h1>`, `<h2>`, etc), paragraphs (`<p>`) and dividers (`<hr />`). Remember that all your tags need to appear inside your `<body>` tag like this:
+
+```html
+<body>
+  <h1>Welcome to my site about trains</h1>
+  <p>A train is a form of transport consisting of a series of connected vehicles that generally runs along a metal track to transport cargo or passengers.</p>
+</body>
+```
 
 ---
 
