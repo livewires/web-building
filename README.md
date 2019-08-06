@@ -1,6 +1,6 @@
-# ://LiveWires/HTML/CSS:lessons
+# HTML and CSS course
 
-HTML & CSS overview for LiveWires
+A short introduction into HTML & CSS overview for [LiveWires](https://livewires.org.uk)
 
 ## Sessions
 
@@ -11,3 +11,8 @@ HTML & CSS overview for LiveWires
 4. [Pages and Links](sessions/3-pages.md)
 5. [Improvements](sessions/4-improvements.md)
 6. [Going Mobile](sessions/5-going-mobile.md)
+
+
+## About LiveWires
+
+[LiveWires](https://livewires.org.uk) is a week long technical activity holiday for 12-15 year olds hosted by [Scripture Union](https://scriptureunion.org.uk). Our aim is to help young people to start their summer learning more about Jesus and technology. Find out more at [LiveWires](livewires.org.uk).
