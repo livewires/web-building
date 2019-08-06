@@ -11,6 +11,7 @@ A short introduction into HTML & CSS overview for [LiveWires](https://livewires.
 5. [Creating layout](sessions/2.1-page-layout.md)
 6. [Improvements](sessions/4-improvements.md)
 7. [Going Mobile](sessions/5-going-mobile.md)
+8. Generating your site (11ty).
 
 
 ## About LiveWires
