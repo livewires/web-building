@@ -4,11 +4,11 @@ We've built a template in `html` and we've added styles with `css`, but a websit
 
 If you are writing a site about a book or a TV show, you might want a page about the characters… if you a writing about a sports team perhaps a page about the players… if a game perhaps a page about the storyline in it…
 
-Make a copy of the `index.htm` page and give a name based on the title of the page. If you are making a site about a tv show you might want a page about the characters, so you would call it `characters.htm`.
+Make a copy of the `index.html` page and give a name based on the title of the page. If you are making a site about a tv show you might want a page about the characters, so you would call it `characters.html`.
 
 Change the page title in the `<header>`
 
-Go back to your web browser and navigate to your new file `localhost/characters.htm` (obviously you should replace `characters.htm` with the file name you have chosen…).
+Go back to your web browser and navigate to your new file `localhost/characters.html` (obviously you should replace `characters.html` with the file name you have chosen…).
 
 Huzzah, you should have a new page, but it looks very similar to your home page. Open up your new file in a text editor and give it a new title, and you can start adding in new content.
 
@@ -44,14 +44,14 @@ Now we have two pages, with some great content, we need make a way to get betwee
 Links are `HTML` tags with attributes, they look like this:
 
 ```html
-<a href="file-name.htm">
+<a href="file-name.html">
   Text to display in the link
 </a>
 ```
 
 We’re going to create a menu on our pages below the banner to allow visitors to navigate between the two pages.
 
-Open up `index.htm` again and scroll down to the end of the `header` and the beginning on the `section`:
+Open up `index.html` again and scroll down to the end of the `header` and the beginning on the `section`:
 
 ```html
 …
@@ -69,8 +69,8 @@ Now in-between these two tags we’re going to create a new element called `nav`
 <nav>
   <div class="container">
     <ul>
-      <li><a href="index.htm">Home</a></li>
-      <li><a href="characters.htm">The Characters</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="characters.html">The Characters</a></li>
     </ul>
   </div>
 </nav>
@@ -81,7 +81,7 @@ Now in-between these two tags we’re going to create a new element called `nav`
 Do you see that we added a list with a new tag in it? The `a` tag creates a link; the `href="…"` tells the browser which file to link to, and then the text after what the visitor to your site sees:
 
 ```html
-<a href="new-page.htm">Text that is displayed</a>
+<a href="new-page.html">Text that is displayed</a>
 ```
 
 Make sure that the second link points to your new page. Save the file, refresh the browser. Click through the new links… what happens? The second link will take you through to your second page, but because you don’t the code on the second page you can’t get back.

@@ -13,8 +13,8 @@ Now you have done that you can copy and paste the `<nav>...</nav>` tag and it's 
 <nav>
     <div class=“container”>
         <ul>
-            <li><a href=“index.htm”>Home</a></li>
-            <li><a href=“characters.htm”>The Characters</a></li>
+            <li><a href=“index.html”>Home</a></li>
+            <li><a href=“characters.html”>The Characters</a></li>
         </ul>
     </div>
 </nav>

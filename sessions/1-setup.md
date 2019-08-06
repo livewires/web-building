@@ -9,11 +9,11 @@ Before doing anything you need to know what your website is going to be about. H
 - A sports team?
 - A band?
 
-Open up Visual Studio Code or Sublime Text (or your preferred text editor) and  create a new file called `index.htm` file.
+Open up Visual Studio Code or Sublime Text (or your preferred text editor) and  create a new file called `index.html` file.
 
-The `index.htm` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
+The `index.html` file is really important; it tells your computer that it is the homepage for your website. Any other pages you create can be called anything else.
 
-`index.htm` should like this:
+`index.html` should like this:
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ Let's try adding a paragraph to our page now. Your `<body>` tag should now look 
 
 As you can see tags like `<body>` can have other tags as their content.
 
-Save your file, and go to your web browser, open your `index.htm` file. Refresh the web page and you should see the your text appear on screen.
+Save your file, and go to your web browser, open your `index.html` file. Refresh the web page and you should see the your text appear on screen.
 
 ## A few more tags…
 

@@ -47,7 +47,7 @@ Go back to your `HTML` file. Previously all our tags were added to `<body>` tag.
     …
 ```
 
-Save `index.htm` and refresh your web browser. You'll now have a page with a red background.
+Save `index.html` and refresh your web browser. You'll now have a page with a red background.
 
 ## Challenge
 
