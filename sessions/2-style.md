@@ -1,20 +1,24 @@
 # Adding style
 
-In the last sheet we wrote a lot of `HTML` tags and added them inside the `<body>` tag. Currently our page is looking very black and white.
+In the first sheets we have written a lot of `HTML` tags and added them inside the `<body>` tag. As a result our page is looking very black and white.
 
-We can fix this, but to do this we need to use a different language to change the page design called `CSS`. `HTML` is used to define the page structure, `CSS` is used to define the style.
+We can fix this, but to do this we need to use a different language to change the page design called `CSS`, `CSS` stands for _Cascading Style Sheets_. `HTML` is used to define the page structure, `CSS` is used to define the style.
 
 ## CSS is not HTML
 
 `CSS` exists in it's own file. Start by creating a new file called `style.css`.
 
-As we have seen `HTML` is written in tags. `CSS` _references_ HTML tags, but it looks very different. Add these lines of `CSS` to your new `style.css`:
+As we have seen `HTML` is written in tags - you can spot a tag because it is word surrounded by a less than symbol `<` and a greater than symbol `>` like this: `<h1>Hello World</h1>`. `CSS` _references_ HTML tags, but it looks very different.
+
+Create a new file and add this to the file.
 
 ```css
 body {
   background-color: red;
 }
 ```
+
+Save it at `style.css`.
 
 There are a couple of parts `CSS`:
 
@@ -30,7 +34,9 @@ In this example there is just one property and value: `background-color: red`, b
 
 Hopefully it is clear what this does… these lines select the tag `body` and sets the `background-color` to be `red`.
 
-Save your file and refresh the page…
+**Note**: Do you see how `color` is missing the letter `u`. This is the American spelling, `CSS` won't work if you spell color like a Brit.
+
+Head back to your browser and refresh the page…
 
 Has anything changed? No? At the moment your `HTML` doesn't know about the `CSS`, we need to tell it to load in `style.css`.
 
@@ -40,16 +46,20 @@ Go back to your `HTML` file. Previously all our tags were added to `<body>` tag.
 <html>
   <head>
     …
+    <title>Page title</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     …
 ```
+You might also want to use this opportunity to update the <title> tag in the `HTML` can you spot what that does? 
 
 Save `index.html` and refresh your web browser. You'll now have a page with a red background.
 
 ## Challenge
+
+Add the `<link rel="stylesheet" href="style.css" />` tag to all your `HTML` files so that you `CSS` is read by all of them.
 
 There are a couple of other properties and values that you can start playing with straight away. See what these do…
 
@@ -61,10 +71,10 @@ body {
 }
 ```
 
-However you might want to pick some more interesting colours and more exciting fonts... Have a look at [CSSFontStack.com](http://cssfontstack.com) for some fonts and [color.adobe.com](http://color.adobe.com) for colours that you can copy and paste into the `body { ... }`.
+Try adjusting the color of the text in other `html` tags like `<h1>` or `<p>`...
 
-Try adjusting the color of the background and text in other `html` tags…
+You might want to pick some more interesting colours and more exciting fonts:
 
----
+- Fonts: [CSSFontStack.com](https://www.cssfontstack.com)
+- Colors: [color.adobe.com](https://color.adobe.com)
 
-[Go to the next sheet; Page layout >](2.1-page-layout.md)   
