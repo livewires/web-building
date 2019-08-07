@@ -1,7 +1,5 @@
 # Getting going: A basic page with tags…
 
-> These worksheets are assuming that you are running a web server locally, if you are setting this up on your home computer you will need to have Apache, MySQL and PHP installed. There are many ways to get this set up, if you haven’t done this look at installing [XAMPP](https://www.apachefriends.org/).  
-
 Before doing anything you need to know what your website is going to be about. Have a think… you could pick anything you want. Here are a couple of ideas:
 
 - A game you're playing?
